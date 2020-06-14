@@ -1,0 +1,24 @@
+{
+  "shells": {
+    "cmd": {
+      "command": "cmd.exe",
+      "arguments": "/c"
+    },
+    "powershell": {
+      "command": "powershell.exe",
+      "arguments": ""
+    },
+    "powershellCore": {
+      "command": "pwsh.exe",
+      "arguments": "-c"
+    },
+    "windowsTerminal": {
+      "command": "wt.exe",
+      "arguments": ""
+    }
+  },
+  "sshCommand": "ssh",
+  "defaultShell": "windowsTerminal",
+  "autorun": true,
+  "hosts": {}
+}
